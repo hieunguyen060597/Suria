@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1700px) {
+  .list-product .title-product {
+    font-size: 50%; }
+    .list-product .title-product h2 {
+      left: -2%;
+      top: 48%; } }
+@media only screen and (max-width: 1100px) {
+  .header-main .logo {
+    margin: 8.5px auto 0px auto; }
+  .header-main .main-menu {
+    margin: auto; }
+
+  .list-product .title-product h2 {
+    top: 70%;
+    left: -40%;
+    font-size: 2.7em; }
+
+  #footer .sign-ft {
+    width: 230px; } }
+@media only screen and (max-width: 886px) {
+  .header-main .main-menu {
+    display: flex;
+    align-items: center;
+    margin: 0; }
+    .header-main .main-menu li {
+      display: none; }
+      .header-main .main-menu li:last-child {
+        display: block; }
+  .header-main .logo {
+    margin: 0; }
+
+  .main-banner figure {
+    height: 60vh; }
+
+  .list-product .title-product {
+    flex: 0 0 100%;
+    height: fit-content  !important;
+    margin-bottom: 20px; }
+    .list-product .title-product h2 {
+      position: static;
+      text-align: center;
+      transform: rotate(0);
+      margin: auto;
+      padding: 8px; }
+  .list-product .row {
+    flex: 0 0 100%; }
+    .list-product .row.no-gutters {
+      margin: auto; }
+    .list-product .row .view-box {
+      padding: 15px; }
+    .list-product .row .images-resue {
+      margin-bottom: 15px; } }
+@media only screen and (max-width: 576px) {
+  .main-banner figure figcaption {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 45%; }
+    .main-banner figure figcaption a {
+      height: 35px;
+      padding: 0px 25px; }
+
+  .list-product .title-product {
+    font-size: 45%; }
+
+  .v-to-see {
+    padding: 4px 15px;
+    font-size: 14px;
+    font-size: 14px; }
+
+  #footer {
+    text-align: center; }
+    #footer .sign-ft {
+      margin: 15px auto 0px auto;
+      width: 270px; }
+    #footer .folow-list .container {
+      justify-content: center; } }
+
+/*# sourceMappingURL=responsive.css.map */

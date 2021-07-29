@@ -1,0 +1,126 @@
+#footer {
+  border-top: 2px solid #CCCCCC;
+  padding-top: 50px; }
+  #footer .list-menu li {
+    font-size: 15px;
+    color: #808080;
+    text-transform: uppercase;
+    line-height: 27px; }
+    #footer .list-menu li a {
+      color: #808080;
+      transition: .3s ease-out;
+      text-transform: uppercase; }
+      #footer .list-menu li a:hover {
+        color: #A3A3A3; }
+  #footer .sign-ft {
+    width: 260px;
+    height: auto;
+    margin-top: 10px; }
+    #footer .sign-ft input {
+      outline: none;
+      height: 35px;
+      background: #FAFAFA;
+      text-align: center;
+      border: 1px solid #C1B497;
+      width: 100%; }
+      #footer .sign-ft input::placeholder {
+        color: #333; }
+      #footer .sign-ft input:focus::placeholder {
+        content: ""; }
+    #footer .sign-ft button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 35px;
+      background: #C1B497;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      transition: .3s ease-out;
+      margin-top: 10px; }
+      #footer .sign-ft button:hover {
+        background: #582C83; }
+  #footer .folow-list {
+    background: #582C83;
+    margin-top: 50px;
+    padding: 20px 0px 10px 0px; }
+    #footer .folow-list .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+    #footer .folow-list .list-icon {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; }
+      #footer .folow-list .list-icon li {
+        margin-right: 18px; }
+        #footer .folow-list .list-icon li:last-child {
+          margin-right: unset; }
+        #footer .folow-list .list-icon li a {
+          font-size: 30px;
+          color: #fff;
+          transition: .3s ease-out; }
+          #footer .folow-list .list-icon li a:hover {
+            color: #C1B497; }
+    #footer .folow-list .list-logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; }
+      #footer .folow-list .list-logo li {
+        margin-right: 18px; }
+        #footer .folow-list .list-logo li:last-child {
+          margin-right: unset; }
+        #footer .folow-list .list-logo li a img {
+          max-width: 130px;
+          vertical-align: middle; }
+  #footer .copy-right {
+    background: #262626;
+    text-align: center;
+    padding: 8.5px; }
+    #footer .copy-right span {
+      color: #fff;
+      font-size: 12px; }
+  #footer a.cd-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 120px;
+    right: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    /* image replacement properties */
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+    z-index: 999;
+    background: #582C83; }
+    #footer a.cd-top .fa {
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px; }
+  #footer a.cd-top.cd-is-visible, #footer a.cd-top.cd-fade-out, #footer .no-touch a.cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s; }
+  #footer a.cd-top, #footer a.cd-top:visited, #footer a.cd-top:hover {
+    color: #CCCCCC;
+    text-decoration: none; }
+  #footer a.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1; }
+  #footer a.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: 1; }
+
+/*# sourceMappingURL=footer.css.map */

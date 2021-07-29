@@ -1,0 +1,117 @@
+.the_content{
+  h2 , h3 , h4{
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  h6{
+    font-size: 1.06em;
+  }
+  h5{
+    font-size:1.2em;
+  }
+  h4{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size:1.7em;
+  }
+  h2{
+    font-size: 1.8em;
+    line-height: 1.5;
+  }
+  p{
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  ul{
+    list-style: disc;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    li{
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      a{
+        color: #ff5912;
+      }
+    }
+  }
+  ol{
+    list-style: decimal;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    li{
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      a{
+        color: #ff5912;
+      }
+    }
+  }
+  blockquote{
+    padding:10px 20px;
+    margin:0 0 20px;
+    border-left:5px solid #eb2b2d;
+    p{
+      margin:0!important;
+    }
+  }
+  code{
+    background:rgba(0,0,0,.05);
+    border-radius:3px;
+    font-size:.85rem;
+    color:#e83e8c
+  }
+  table>tbody>tr>td,table>tbody>tr>th,table>tfoot>tr>td,table>tfoot>tr>th,table>thead>tr>td,table>thead>tr>th{
+    border:1px solid #ddd;
+    padding:7px 10px;
+  }
+  iframe{
+    margin:auto
+  }
+  .syntaxhighlighter{
+    padding:10px 0
+  }
+}
+/*04 keyframes */
+
+@keyframes namdz{
+  0% {
+    animation: namdz 1s infinite ease-in-out;
+    -webkit-transform:rotate(0) scale(1) skew(1deg);
+    transform:rotate(0) scale(1) skew(1deg)
+  }
+
+  10% {
+    -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+    transform:rotate(-25deg) scale(1) skew(1deg)
+  }
+
+  20% {
+    -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+    transform:rotate(25deg) scale(1) skew(1deg)
+  }
+
+  30% {
+    -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+    transform:rotate(-25deg) scale(1) skew(1deg)
+  }
+
+  40% {
+    -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+    transform:rotate(25deg) scale(1) skew(1deg)
+  }
+
+  50% {
+    -webkit-transform:rotate(0) scale(1) skew(1deg);
+    transform:rotate(0) scale(1) skew(1deg)
+  }
+
+  100% {
+    -webkit-transform:rotate(0) scale(1) skew(1deg);
+    transform:rotate(0) scale(1) skew(1deg)
+  }
+}
